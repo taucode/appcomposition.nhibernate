@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>TauCode.AppComposition.NHibernate</id>
-    <version>1.3.7</version>
+    <version>1.5.0</version>
     <authors>TauCode</authors>
     <owners>TauCode</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -13,11 +13,11 @@
       TauCode NHibernate App Composition extensions
     </description>
     <releaseNotes>
-      Release 1.3.7.
+      Release 1.5.0.
     </releaseNotes>
     <tags>taucode app nhibernate</tags>
     <dependencies>
-      <group targetFramework=".NETStandard2.1">
+      <group targetFramework=".NETCoreApp6.0">
         <dependency id="Autofac" version="6.4.0" />
         <dependency id="FluentNHibernate" version="3.1.0" />
         <dependency id="Inflector.NetStandard" version="1.2.2" />
@@ -26,7 +26,6 @@
   </metadata>
   <files>
     <file src="..\LICENSE*" target="" />
-    <file src="..\src\TauCode.AppComposition.NHibernate\bin\Release\netstandard2.1\TauCode.AppComposition.NHibernate.dll" target="lib\netstandard2.1" />
-    <file src="..\src\TauCode.AppComposition.NHibernate\bin\Release\netstandard2.1\TauCode.AppComposition.NHibernate.pdb" target="lib\netstandard2.1" />
+    <file src="..\src\TauCode.AppComposition.NHibernate\bin\Release\net6.0\TauCode.AppComposition.NHibernate.dll" target="lib\net6.0" />
   </files>
 </package>

@@ -1,19 +1,18 @@
 ﻿using NUnit.Framework;
 
-namespace TauCode.AppComposition.NHibernate.Tests
+namespace TauCode.AppComposition.NHibernate.Tests;
+
+[TestFixture]
+public class AppCompositionNHibernateDummyFixture
 {
-    [TestFixture]
-    public class AppCompositionNHibernateDummyFixture
+    [Test]
+    public void AppCompositionNHibernateDummyTest()
     {
-        [Test]
-        public void AppCompositionNHibernateDummyTest()
-        {
-            // Arrange
+        // Arrange
 
-            // Act
+        // Act
 
-            // Assert
-            Assert.Pass("Added for CI/CD.");
-        }
+        // Assert
+        Assert.Pass("Added for CI/CD.");
     }
 }
