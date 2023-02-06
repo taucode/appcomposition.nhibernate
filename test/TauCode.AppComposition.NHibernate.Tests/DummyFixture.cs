@@ -3,10 +3,10 @@
 namespace TauCode.AppComposition.NHibernate.Tests;
 
 [TestFixture]
-public class AppCompositionNHibernateDummyFixture
+public class DummyFixture
 {
     [Test]
-    public void AppCompositionNHibernateDummyTest()
+    public void DummyTest()
     {
         // Arrange
 
