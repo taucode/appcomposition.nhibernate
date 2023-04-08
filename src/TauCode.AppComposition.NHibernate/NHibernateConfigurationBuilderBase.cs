@@ -13,6 +13,7 @@ public abstract class NHibernateConfigurationBuilderBase : INHibernateConfigurat
 
     public string ConnectionString { get; protected set; }
 
+    // todo: get rid of.
     public string DefaultSchemaName { get; protected set; }
 
     public Configuration Build()
